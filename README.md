@@ -15,7 +15,8 @@ This Streamlit app visualizes key metrics from the graduate admissions funnel, i
 ├── app.py                # Streamlit dashboard code
 ├── requirements.txt      # Dependencies
 ├── .gitignore            # Prevent real dataset from being pushed
-├── sample_data.xlsx      # (placeholder file for schema reference)
+├── demo_data.xlsx        #This app reads from `demo_data.xlsx` for visualization.
+
 └── README.md             # This file
 ```
 
@@ -28,7 +29,7 @@ pip install -r requirements.txt
 ```
 3. Place your real data file as:
 ```bash
-2025-2026 Grad Marketing Data.xlsx
+demo_data.xlsx
 ```
 4. Run locally:
 ```bash
