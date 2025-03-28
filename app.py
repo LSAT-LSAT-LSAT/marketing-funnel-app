@@ -7,7 +7,7 @@ st.set_page_config(page_title="Marketing Funnel Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("2025-2026 Grad Marketing Data.xlsx", sheet_name="STAGE 5")
+    df = pd.read_excel("demo_data.xlsx", sheet_name="STAGE 5")
 
     def extract_funnel_row(row):
         status = row["Person Status"]
